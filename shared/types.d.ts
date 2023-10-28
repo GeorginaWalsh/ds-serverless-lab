@@ -11,6 +11,9 @@ export type Movie = {
     vote_average: number;
     vote_count: number
   }
+  export type MovieAndCastQueryParams = {
+    cast?: string;
+  }
 
   export type MovieCast = {
     movieId: number;
